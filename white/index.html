@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Destak Moveis E Eletros</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI', Arial, sans-serif;background:#0d0d0d;color:#f0ead6;line-height:1.6}
+header{background:#0d0d0d;border-bottom:1px solid #7a6020;padding:0 48px;display:flex;align-items:center;justify-content:space-between;height:56px;position:sticky;top:0;z-index:10}
+.logo{font-family:Garamond, Georgia, serif;font-size:.95rem;font-weight:700;color:#c9a227;letter-spacing:.04em}
+nav ul{list-style:none;display:flex;gap:32px}
+nav a{color:#a09060;text-decoration:none;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}
+nav a:hover{color:#c9a227}
+.hero{padding:100px 48px 80px;max-width:900px}
+.hero-tag{display:inline-block;border:1px solid #7a6020;color:#c9a227;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;padding:6px 16px;margin-bottom:32px}
+.hero h1{font-family:Garamond, Georgia, serif;font-size:clamp(2.4rem,5vw,4rem);font-weight:700;line-height:1.1;margin-bottom:24px;color:#f0ead6}
+.hero h1 em{color:#c9a227;font-style:normal}
+.hero-desc{font-size:1.1rem;color:#a09060;max-width:600px;margin-bottom:40px;line-height:1.8}
+.hero-cta{display:inline-block;background:#c9a227;color:#0d0d0d;padding:16px 40px;text-decoration:none;font-weight:700;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase}
+.hero-cta:hover{background:#7a6020;color:#f0ead6}
+.divider{border:none;border-top:1px solid #7a6020;margin:0 48px}
+.section{padding:72px 48px;max-width:960px;margin:0 auto}
+.sec-label{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:#c9a227;margin-bottom:12px}
+.sec-h2{font-family:Garamond, Georgia, serif;font-size:1.8rem;font-weight:700;color:#f0ead6;margin-bottom:48px}
+.srv-item{display:flex;gap:32px;align-items:flex-start;padding:28px 0;border-bottom:1px solid #7a6020}
+.srv-item:last-child{border-bottom:none}
+.srv-n{font-family:Garamond, Georgia, serif;font-size:3rem;font-weight:700;color:#7a6020;min-width:72px;line-height:1;letter-spacing:-.02em}
+.srv-item h4{font-family:Garamond, Georgia, serif;font-size:1.05rem;font-weight:700;color:#c9a227;margin-bottom:8px}
+.srv-item p{font-size:.9rem;color:#a09060;line-height:1.7}
+.sobre-sec{background:#141414;padding:72px 48px;margin-top:0}
+.sobre-inner{max-width:900px;margin:0 auto}
+.sobre-inner p{color:#a09060;line-height:1.9;margin-bottom:16px;font-size:.98rem}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:0;margin-top:48px;border:1px solid #7a6020}
+.meta-cell{padding:20px 24px;border-right:1px solid #7a6020}
+.meta-cell:last-child{border-right:none}
+.meta-label{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:#c9a227;margin-bottom:4px}
+.meta-value{font-size:.92rem;color:#f0ead6;font-weight:600}
+.contato-sec{padding:72px 48px;max-width:960px;margin:0 auto}
+.contato-inner{border-left:2px solid #c9a227;padding-left:32px;max-width:500px}
+.contato-inner p{color:#a09060;margin-bottom:12px;font-size:.95rem;line-height:1.7}
+.contato-inner a{color:#c9a227;text-decoration:none}
+footer{background:#141414;border-top:1px solid #7a6020;padding:24px 48px;display:flex;justify-content:space-between;font-size:.78rem;color:#5a4a20}
+@media(max-width:600px){.hero{padding:60px 24px}.section,.contato-sec{padding:48px 24px}nav{display:none}.srv-n{font-size:2rem;min-width:48px}}
+</style></head><body>
+<header><span class="logo">Destak Moveis E Eletros</span><nav><ul><li><a href="#servicos">Serviços</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#contato">Contato</a></li></ul></nav></header>
+<div id="hero" class="hero">
+  <div class="hero-tag">Móveis · Eletrodomésticos · Qualidade · Brasília</div>
+  <h1>Móveis e <em>eletrodomésticos</em> de <em>qualidade</em> para seu lar</h1>
+  <p class="hero-desc">A Destak Móveis e Eletros oferece uma ampla variedade de produtos para móveis e eletrodomésticos, atendendo famílias e empresas em Brasília. Somos sua parceira na escolha dos melhores móveis e equipamentos para transformar seus espaços.</p>
+  <a href="#contato" class="hero-cta">Converse com especialistas</a>
+</div>
+<hr class="divider">
+<div id="servicos" class="section"><p class="sec-label">Expertise</p><h2 class="sec-h2">Nossas especialidades</h2><div class="srv-item"><span class="srv-n">01</span><div><h4>Móveis Residenciais</h4><p>Ampla seleção de móveis para sala, quarto, cozinha e área de serviço com design moderno e clássico.</p></div></div><div class="srv-item"><span class="srv-n">02</span><div><h4>Eletrodomésticos</h4><p>Marcas consagradas em geladeiras, fogões, máquinas de lavar e outros eletrodomésticos essenciais.</p></div></div><div class="srv-item"><span class="srv-n">03</span><div><h4>Móveis Comerciais</h4><p>Soluções em móveis planejados para escritórios, consultórios e ambientes corporativos.</p></div></div><div class="srv-item"><span class="srv-n">04</span><div><h4>Consultoria e Entrega</h4><p>Atendimento especializado com orientação na escolha e serviço de entrega rápida em Brasília.</p></div></div></div>
+<div id="sobre" class="sobre-sec"><div class="sobre-inner">
+  <p class="sec-label">Sobre a empresa</p><h2 class="sec-h2">Quem somos</h2>
+  <p>A Destak Móveis e Eletros é uma empresa consolidada no comércio varejista de móveis e eletrodomésticos em Brasília. Com anos de experiência, oferecemos produtos de qualidade com preços competitivos para atender suas necessidades.</p><p>Nosso diferencial está no atendimento personalizado, na variedade de marcas e na flexibilidade de pagamento. Queremos ser a sua loja de confiança para equipar e decorar sua casa ou negócio com qualidade e presteza.</p>
+  <div class="meta-grid">
+    <div class="meta-cell"><div class="meta-label">Razão Social</div><div class="meta-value">Destak Comercio De Moveis Ltda</div></div>
+    <div class="meta-cell"><div class="meta-label">CNPJ</div><div class="meta-value">46.600.335/0002-22</div></div>
+    <div class="meta-cell"><div class="meta-label">Estado</div><div class="meta-value">Distrito Federal</div></div>
+    <div class="meta-cell"><div class="meta-label">Fundação</div><div class="meta-value">2026</div></div>
+  </div>
+</div></div>
+<div id="contato" class="contato-sec"><p class="sec-label">Fale conosco</p><h2 class="sec-h2">Fale conosco</h2>
+<div class="contato-inner">
+  <p>Atendimento reservado e personalizado.</p>
+  <p><strong>Telefone:</strong> <a href="tel:+556199548579">(61) 9954-8579</a></p><p><strong>Endereço:</strong> R. Ql 5 Conjunto I Lote, 08, Itapoa Ii, Brasilia — DF, CEP 71590-687</p>
+</div></div>
+<footer><span>Destak Moveis E Eletros · CNPJ 46.600.335/0002-22</span><span>© 2026–2026 Destak Comercio De Moveis Ltda</span></footer>
+</body></html>
